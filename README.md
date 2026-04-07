@@ -107,6 +107,7 @@ Based on our findings (pending validation with actual blind users):
 Voice-Accessible-Restaurant-Ordering/
 ├── data_analysis/        # Processed data, analysis scripts, and results
 ├── raw_data/             # Raw collected data (e.g., SUS scores, timings)
+├── LICENSE               # MIT License
 ├── questionnaires/       # Consent forms, demographic surveys, rating scales
 ├── project_report.pdf    # Full research paper
 └── README.md             # Project overview and documentation
@@ -116,4 +117,5 @@ Voice-Accessible-Restaurant-Ordering/
 
 ## 📄 License
 
+This project is licensed under the MIT License.
 This project was developed for academic purposes at Vrije Universiteit Amsterdam. Please cite appropriately if referencing this work.
