@@ -104,11 +104,11 @@ Based on our findings (pending validation with actual blind users):
 ## 📁 Repository Structure
 
 furhat-voice-ordering-accessibility/
-├── project_report.pdf       # Full research paper
-├── README.md
-├── src/                     # Furhat Blockly source files
-├── data/                    # Raw collected data (SUS scores, timings)
-└── questionnaires/          # Consent forms, demographic & rating scales
+├── data_analysis/        # Processed data, analysis scripts, and results
+├── raw_data/             # Raw collected data (e.g., SUS scores, timings)
+├── questionnaires/       # Consent forms, demographic surveys, rating scales
+├── project_report.pdf    # Full research paper
+└── README.md             # Project overview and documentation
 
 ---
 
