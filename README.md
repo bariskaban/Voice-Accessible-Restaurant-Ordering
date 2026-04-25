@@ -1,12 +1,12 @@
-# 🤖 Furhat Voice Ordering System for Blind Users
+# Furhat Voice Ordering System for Blind Users
 
 A voice-based restaurant ordering system built on the **Furhat social robot**, designed to enhance accessibility for blind and visually impaired users. This project investigates how speech verbosity (concise vs. descriptive) affects usability, task efficiency, and user satisfaction in a voice-only interaction context.
 
-> 📄 A full research report is included in this repository: [`project_report.pdf`](./project_report.pdf)
+> A full research report is included in this repository: [`project_report.pdf`](./project_report.pdf)
 
 ---
 
-## 📌 Overview
+## Overview
 
 Dining out is a significant challenge for visually impaired individuals. Most restaurant technologies rely on visual interfaces, excluding blind users from independent dining experiences. This project addresses that gap by designing a **voice-only ordering system** using a Furhat robot, removing all visual dependencies.
 
@@ -16,7 +16,7 @@ We conducted a between-subjects study comparing two speech design conditions:
 
 ---
 
-## 👥 Authors
+## Authors
 
 | Name | Student ID | Email |
 |------|-----------|-------|
@@ -28,7 +28,7 @@ We conducted a between-subjects study comparing two speech design conditions:
 
 ---
 
-## 🧪 Study Design
+## Study Design
 
 - **Type:** Exploratory between-subjects experiment
 - **Participants:** 8 (aged 18–20, university community)
@@ -48,22 +48,22 @@ The system featured 4 categories with 3 items each:
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 | Measure | Concise Speech | Descriptive Speech | p-value |
 |---|---|---|---|
-| Task Time (s) | 142 ± 21.97 | 213 ± 28.62 | 0.008 ✅ |
-| SUS Score | 82.5 ± 2.04 | 67.5 ± 4.33 | 0.030 ✅ |
+| Task Time (s) | 142 ± 21.97 | 213 ± 28.62 | 0.008 SS |
+| SUS Score | 82.5 ± 2.04 | 67.5 ± 4.33 | 0.030 SS |
 | Satisfaction (1–5) | 4.5 ± 0.58 | 3.25 ± 0.96 | 0.074 |
 | Confidence (1–5) | 4.25 ± 0.50 | 3.75 ± 0.96 | 0.418 |
 
-> ✅ = statistically significant (p < 0.05)
+> SS = statistically significant (p < 0.05)
 
 Concise speech achieved **"excellent" usability** (SUS > 80), while descriptive speech fell in the **"acceptable"** range.
 
 ---
 
-## 💡 Design Recommendations
+## Design Recommendations
 
 Based on our findings (pending validation with actual blind users):
 
@@ -75,7 +75,7 @@ Based on our findings (pending validation with actual blind users):
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Participants were **sighted users simulating blindness** — not actual blind users
 - Small sample size (n=8) limits generalizability
@@ -84,7 +84,7 @@ Based on our findings (pending validation with actual blind users):
 
 ---
 
-## 🔭 Future Work
+## Future Work
 
 - Replicate study with **actual blind and visually impaired users**
 - Build **adaptive verbosity systems** that adjust to user behavior
@@ -93,7 +93,7 @@ Based on our findings (pending validation with actual blind users):
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [Furhat Robot](https://furhatrobotics.com/)
 - Furhat Blockly (interaction programming)
@@ -101,7 +101,7 @@ Based on our findings (pending validation with actual blind users):
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Voice-Accessible-Restaurant-Ordering/
@@ -115,7 +115,7 @@ Voice-Accessible-Restaurant-Ordering/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
-This project was developed for academic purposes at Vrije Universiteit Amsterdam. Please cite appropriately if referencing this work.
+This project was developed for academic purposes at Vrije Universiteit Amsterdam.
